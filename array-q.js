@@ -134,3 +134,9 @@ for (let maal of arslan) {
     
 }
 
+let arr=["arslan",10,20,30]
+
+for (let maal of arr) {
+    console.log(maal);
+    
+}
