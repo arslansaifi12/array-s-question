@@ -126,3 +126,11 @@ for(let i=0; i<word.length; i++){
 console.log(ans);
 
 
+let arslan=[10,20,3040,50]
+
+for (let maal of arslan) {
+    console.log(maal);
+    
+    
+}
+
