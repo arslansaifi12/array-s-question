@@ -1,24 +1,23 @@
 q.1
 
-// let arr = [0,10,20,30,]
+ let arr = [0,10,20,30,]
 
 
-// let max=arr[0]
-// let min=arr[0]
+ let max=arr[0]
+ let min=arr[0]
 
 
-// for(let i=1; i<=arr.length; i++){
-//     if (max<arr[i]) {
-//         max=arr[i]
+ for(let i=1; i<=arr.length; i++){
+     if (max<arr[i]) {
+         max=arr[i]
         
-//     }
-//     if(min>arr[i]){
-//         min=arr[i]
-//     }
-// }
+    }
+     if(min>arr[i]){
+         min=arr[i]
+    }
+ }
 
-
-// let ayera=[-2,-1,0,1,2]
+let ayera=[-2,-1,0,1,2]
 
 
 let arr1=1234567890
