@@ -1,95 +1,95 @@
-//q.1
+q.1
 
-// // let arr = [0,10,20,30,]
-
-
-// // let max=arr[0]
-// // let min=arr[0]
+// let arr = [0,10,20,30,]
 
 
-// // for(let i=1; i<=arr.length; i++){
-// //     if (max<arr[i]) {
-// //         max=arr[i]
+// let max=arr[0]
+// let min=arr[0]
+
+
+// for(let i=1; i<=arr.length; i++){
+//     if (max<arr[i]) {
+//         max=arr[i]
         
-// //     }
-// //     if(min>arr[i]){
-// //         min=arr[i]
-// //     }
-// // }
+//     }
+//     if(min>arr[i]){
+//         min=arr[i]
+//     }
+// }
 
 
-// // let ayera=[-2,-1,0,1,2]
+// let ayera=[-2,-1,0,1,2]
 
 
-// let arr1=1234567890
-// let ans=0
-// let pow=1
+let arr1=1234567890
+let ans=0
+let pow=1
 
 
 
 
-// while (arr1>0) {
-//     let arrld=arr1%10
+while (arr1>0) {
+    let arrld=arr1%10
    
-//     arrld=pow*arrld
-//     ans=ans+arrld
+    arrld=pow*arrld
+    ans=ans+arrld
 
-//     pow=pow*10
-//     arr1=
+    pow=pow*10
+    arr1=
 
-// }
-// console.log(ans);
+}
+console.log(ans);
 
 
 
-// let str="arslan is the best boy in ";
-// let arr =str.split(" ")
+let str="arslan is the best boy in ";
+let arr =str.split(" ")
 
-// let maxlen=0
-// let ans=""
+let maxlen=0
+let ans=""
 
-// for(let i=0; i<arr.length; i++){
-//     if (arr[i].length>maxlen) {
-//         maxlen=arr[i].length
-//         ans=arr[i]
+for(let i=0; i<arr.length; i++){
+    if (arr[i].length>maxlen) {
+        maxlen=arr[i].length
+        ans=arr[i]
         
         
-//     }
-    
-// // }
-// console.log(ans)
-
-// console.log(maxlen);
-
-
-
-
-
-// function checklongstring(str) {
-
-//     let arr =str.split(" ")
-
-
-    
-// let maxlen=0
-// let ans=""
-
-// for(let i=0; i<arr.length; i++){
-//     if (arr[i].length>maxlen) {
-//         maxlen=arr[i].length
-//         ans=arr[i]
-        
-        
-//     }
+    }
     
 // }
-// return ans;
+console.log(ans)
 
-// }
+console.log(maxlen);
 
-// let rv =checklongstring("arslan is the best boy in")
 
-// console.log(rv);
+
+
+
+function checklongstring(str) {
+
+    let arr =str.split(" ")
+
+
+    
+let maxlen=0
+let ans=""
+
+for(let i=0; i<arr.length; i++){
+    if (arr[i].length>maxlen) {
+        maxlen=arr[i].length
+        ans=arr[i]
+        
+        
+    }
+    
+}
+return ans;
+
+}
+
+let rv =checklongstring("arslan is the best boy in")
+
+console.log(rv);
 
 
 
@@ -137,111 +137,111 @@ for (let maal of arslan) {
 
 
 
-//  // repeating element in array
-// // question 30,40 kaise nikale 
-// let repeatingelement=(arr)=>{
+ // repeating element in array
+// question 30,40 kaise nikale 
+let repeatingelement=(arr)=>{
 
-//     let notunique=[]
+    let notunique=[]
 
     
-// for(let i=0; i<arr.length; i++){
-//     let isunique=true;
+for(let i=0; i<arr.length; i++){
+    let isunique=true;
 
-//     for(let j=i+1; j<arr.length; j++){
-//         if (!(arr[i]==arr[j])) {
+    for(let j=i+1; j<arr.length; j++){
+        if (!(arr[i]==arr[j])) {
 
-//             isunique=false       
-//         }
-//         if (isunique) {
+            isunique=false       
+        }
+        if (isunique) {
 
-//             notunique[notunique.length]=arr[i]
+            notunique[notunique.length]=arr[i]
 
-//             break;
+            break;
 
-//         }
+        }
 
-//       }
+      }
 
-//     }
-//     return notunique;
-// }
-// let rv =repeatingelement([10,10,20,20,30,40, 50,50,60,60])
-// console.log(rv);
-
-
+    }
+    return notunique;
+}
+let rv =repeatingelement([10,10,20,20,30,40, 50,50,60,60])
+console.log(rv);
 
 
 
-//remove duplicate element in array dry run 
 
-// let arr=[10,10,20,20,30,40, 50,50,60,60]
 
-// let notunique=[];
+remove duplicate element in array dry run 
 
-// for(let i=0; i<arr.length; i++){
-//     let isunique=true;
-//     for(let j=i+1; j<arr.length; j++){
-//         if ((arr[i]==arr[j])) {
-//            isunique=false
+let arr=[10,10,20,20,30,40, 50,50,60,60]
+
+let notunique=[];
+
+for(let i=0; i<arr.length; i++){
+    let isunique=true;
+    for(let j=i+1; j<arr.length; j++){
+        if ((arr[i]==arr[j])) {
+           isunique=false
             
            
-//         }
-//        if (isunique) {
-//         notunique[notunique.length]=arr[i]
-//         break;
-//        }
+        }
+       if (isunique) {
+        notunique[notunique.length]=arr[i]
+        break;
+       }
 
-//       }
+      }
 
-//       }
+      }
 
-//       console.log(notunique);
+      console.log(notunique);
       
       
-// // questio return kaise kare dono ko
-// let symmetricpairq=(arr)=>{
+// questio return kaise kare dono ko
+let symmetricpairq=(arr)=>{
 
-// let symmetricpair=[];
-// let symmetricpair1=[];
+let symmetricpair=[];
+let symmetricpair1=[];
 
-// for(let i=0; i<arr.length; i++){
-//     for(let j=i+1; j<arr.length; j++){
-//         if (arr[i][0]==arr[j][1] && arr[i][1]==arr[j][0]) {
-//             symmetricpair=(arr[i])
-//             symmetricpair1=(arr[j])
+for(let i=0; i<arr.length; i++){
+    for(let j=i+1; j<arr.length; j++){
+        if (arr[i][0]==arr[j][1] && arr[i][1]==arr[j][0]) {
+            symmetricpair=(arr[i])
+            symmetricpair1=(arr[j])
             
-//            console.log(symmetricpair,symmetricpair1);
+           console.log(symmetricpair,symmetricpair1);
            
-//         }
-//     }
-// }
+        }
+    }
+}
 
 
-// }
-// symmetricpairq([[10,20],[20,10],[30,40],[40,30],[50,60],[10,20]])
+}
+symmetricpairq([[10,20],[20,10],[30,40],[40,30],[50,60],[10,20]])
 
 
 
 
-// let sortedarr=(arr)=>{
+let sortedarr=(arr)=>{
     
-// for(let i=0; i<arr.length; i++){
-//     for(let j=i+1; j<arr.length; j++){
-//         if (arr[i]>arr[j]) {
-//             let temp=arr[i]
-//             arr[i]=arr[j]
-//             arr[j]=temp
+for(let i=0; i<arr.length; i++){
+    for(let j=i+1; j<arr.length; j++){
+        if (arr[i]>arr[j]) {
+            let temp=arr[i]
+            arr[i]=arr[j]
+            arr[j]=temp
           
-//         }
-//     }
-// }
-// return arr
+        }
+    }
+}
+return arr
 
-// }
+}
 
-//  let rv=sortedarr([40,10,30,20])
+ let rv=sortedarr([40,10,30,20])
 
-// console.log(rv);
+console.log(rv);
 
 
 
