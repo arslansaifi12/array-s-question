@@ -211,9 +211,7 @@ return ans
 }
 
 let ans=reverseStringCharacter("I am the best")
-console.log(ans);
-
-                         
+console.log(ans)
  
    
     
