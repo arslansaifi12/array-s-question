@@ -1,8 +1,8 @@
-// // //q.{1} Write a function to remove duplicates from an array of integers.
+// //q.{1} Write a function to remove duplicates from an array of integers.
 
-// let removeduplicate=(arr)=>{
 
-//    let duplicate=[]
+// let duplicateinteger=(arr)=>{
+// let duplicate=[]
 
 // for(let i=0;i<arr.length; i++){
 //     let isunique=false;
@@ -21,40 +21,17 @@
 //     }
 // }
 // return duplicate;
-
 // }
 
-
-
-
-// let rv1=removeduplicate([5, 3, 6, 3, 2, 5, 8, 2])
-// console.log(rv1);
+// console.log(duplicateinteger([5, 3, 6, 3, 2, 5, 8, 2]));
 
 
 
 
-// // /Q{5}.Write a function to reverse a string without using built-in functions.
 
-// let reverseString=(str)=>{
+//Q{2} Write a function to find the second largest number in an array.
 
-//    let arr=str.split(" ")
-
-// let end=arr.length-1
-
-// for (let i=end; i>=0; i--){
-//     console.log(arr[i]);
-    
-// }
-
-// }
-// reverseString("my name is arslan")
-
-
-   
-
-// //Q{2} Write a function to find the second largest number in an array.
-
-// let secondlargest=(arr)=>{
+// let arr=[ 40,20,8,9,50,30,45,30];
 
 // let max=arr[0]
 // let secondmax=arr[0];
@@ -76,127 +53,92 @@
      
         
 //     }
-//     return secondmax;
-// }
+// // console.log(max);
 
-// let rv2=secondlargest([ 40,20,8,9,50,30,45,30,47])
-// console.log(rv2);
-
-
-// 10. Write a function to find the first non-repeating character in a string.
-
-let onetime=(str)=>{
-
-   let arr=str.split("");
-onetime=[]
-
-for (let i=0; i<arr.length; i++){
-   let isunique=true;
-   for(let j=0; j<arr.length; j++){
-      if (arr[i]==arr[j] && i!==j) {
-         isunique =false;
-         break;
-
-      }
-    
-   }
-   
-   if (isunique) {
-      onetime[onetime.length]=arr[i]
-   }
-
-
-}
-   
-return onetime;
-
-}
-let rv4=onetime("level")
-console.log(rv4);
-
-                             
+// console.log(secondmax);
 
 
 
-// // //Q.{3}-Write a function to merge two arrays and return a sorted array without duplicates.
 
 
-// function mergearrAndsort(arr1,arr2) {
+// //Q.{3}-Write a function to merge two arrays and return a sorted array without duplicates.
+
+// let arr1=[5,3,6,2]
+// let arr2=[3,9,1,6]
 
 // let onearr=arr1.concat(arr2)
 
+//  for(let i=0; i<onearr.length; i++){
+//     for (let j=i+1; j<onearr.length; j++){
+
+//         if (onearr[i]>onearr[j]) {
+//             let temp=onearr[i]
+//             onearr[i]=onearr[j]
+//             onearr[j]=temp
+            
+//         }
+
+//     }
+    
+//  }
+
 // let removeduplicate1=[]
-
-// for(let i=0; i<onearr.length; i++){
-//    for (let j=i+1; j<onearr.length; j++){
-
-//        if (onearr[i]>onearr[j]) {
-//            let temp=onearr[i]
-//            onearr[i]=onearr[j]
-//            onearr[j]=temp
-           
-//        }
-
-//    }
-   
-// }
-
-// for(let i=0; i<onearr.length; i++){
-//    let isunique=true;
-//    for(let j=i+1; j<onearr.length; j++){
-//        if (onearr[i]==onearr[j]) {
-//            isunique=false;
-//            break;
-           
-//        }
-//    }
-//        if(isunique){
-//            removeduplicate1[removeduplicate1.length]=onearr[i]
-           
-//        }
-       
-// }
-
-//    return removeduplicate1
-// }
-
-// let rv3=mergearrAndsort([5,3,6,2],[3,9,1,6])
-
-// console.log(rv3);
+//  for(let i=0; i<onearr.length; i++){
+//     let isunique=true;
+//     for(let j=i+1; j<onearr.length; j++){
+//         if (onearr[i]==onearr[j]) {
+//             isunique=false;
+//             break;
+            
+//         }
+//     }
+//         if(isunique){
+//             removeduplicate1[removeduplicate1.length]=onearr[i]
+            
+//         }
+        
+//  }
+ 
+//  console.log(removeduplicate1);
+ 
 
 
-
-
-
-// // Q{4}.Write a function to rotate an array by  positions.
-
-// function rotatearr(arr) {
-
-//    let end=arr.length-1
+// Q{4}.Write a function to rotate an array by k positions.
+// let arr=[1,2,3,4,5]
+// let end=arr.length-1
 // let endvalue=[]
 
 // for(let i=end; i>2; i--){
 
 //   endvalue[endvalue.length]=arr[i]
  
+    
 // }
 
 // console.log(endvalue);
 
+
 // let exchange=endvalue.concat(arr)
+// console.log(exchange);
 
-// return exchange
+
+//Q{5}.Write a function to reverse a string without using built-in functions.
+
+// let str="my name is arslan"
+// let arr=str.split(" ")
+// console.log(arr);
+// let end=arr.length-1
+
+// for (let i=end; i>=0; i--){
+//     console.log(arr[i]);
+    
 // }
-// let rv4=rotatearr([1,2,3,4,5])
-// console.log(rv4);
 
 
+//Q{6}.Write a function to count the occurrences of each character in a string.
 
-// //Q{6}.Write a function to count the occurrences of each character in a string.
-
-// let reverseStringCharacter=(str)=>{
-
-//    let arr=str.split("")
+// let str="my name is arslan"
+// let arr=str.split("")
 // let ans=""
 // let end=arr.length-1
 
@@ -205,17 +147,22 @@ console.log(rv4);
    
     
 // }
-// return ans
-
-
-// }
-
-// let ans=reverseStringCharacter("I am the best")
 // console.log(ans);
 
-                         
- 
+
+
+
+
+let str="level"
+let arr=str.split("")
+
+console.log(arr);
+
+
+for (let i=0; i<arr.length; i++){
+   
+   console.log(arr[i]);
    
     
-
+}
 
